@@ -49,7 +49,7 @@ require([
 
     // here we use Papa Parse to load and read the CSV data
     // we could have also used another library like D3js to do the same
-    Papa.parse('../csv-data/fichier_mis_a_jour2.csv', {
+    Papa.parse('fichier_mis_a_jour2.csv', {
       download: true,
       header: true,
       dynamicTyping: true,
